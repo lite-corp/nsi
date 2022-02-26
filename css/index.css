@@ -8,6 +8,9 @@ body {
     margin: 0;
 }
 
+
+/* Header-related code */
+
 header {
     /* Screen width minus the padding*/
     width: calc(100% - 1em);
@@ -52,4 +55,39 @@ header {
 #theme-switcher {
     width: 4em;
     height: 4em;
+}
+
+
+/* Page-related code */
+
+main {
+    padding: 1em;
+    color: var(--text-color);
+}
+
+
+/* Footer-related code */
+
+footer {
+    width: 100%;
+    display: flex;
+    height: 10em;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--background-color-secondary);
+    position: relative;
+    bottom: 0;
+}
+
+footer>p {
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--text-color);
+}
+
+#source-code {
+    color: var(--text-color-accent);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
 }
