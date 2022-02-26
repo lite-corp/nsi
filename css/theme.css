@@ -1,0 +1,12 @@
+/* Colors and fonts for the document*/
+
+:root {
+    --background-color: #3B3C3F;
+    --background-color-secondary: #202223;
+    --text-color: #FFFFFF
+}
+
+html {
+    font-family: monospace;
+    font-size: 130%;
+}
