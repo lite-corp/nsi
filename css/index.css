@@ -55,6 +55,13 @@ header {
 #theme-switcher {
     width: 4em;
     height: 4em;
+    background-image: var(--theme-url);
+    background-size: cover;
+}
+
+#theme-switcher:hover {
+    background-image: var(--theme-url-hover);
+    cursor: pointer;
 }
 
 

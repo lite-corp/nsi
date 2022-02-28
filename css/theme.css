@@ -1,10 +1,21 @@
 /* Colors and fonts for the document*/
 
-:root {
+:root, :root.dark {
     --background-color: #3B3C3F;
     --background-color-secondary: #202223;
-    --text-color: #FFFFFF;
-    --text-color-accent: #68edff;
+    --text-color: #e7e7e7;
+    --text-color-accent: #6edac8;
+    --theme-url: url("../img/theme_dark.png");
+    --theme-url-hover: url("../img/theme_dark_hover.png");
+}
+
+:root.light {
+    --background-color: #e7e7e7;
+    --background-color-secondary: #c4c4c4;
+    --text-color: #222222;
+    --text-color-accent: #6edac8;
+    --theme-url: url("../img/theme_light.png");
+    --theme-url-hover: url("../img/theme_light_hover.png");
 }
 
 html {
