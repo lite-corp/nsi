@@ -53,7 +53,7 @@ header {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: var(--text-color-accent);
+    background-color: var(--text-color);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
