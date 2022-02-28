@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -45,7 +45,8 @@ header {
     line-height: 1.5em;
     color: var(--text-color);
 }
-.navigation-item:after{
+
+.navigation-item:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -57,7 +58,8 @@ header {
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
-.navigation-item:hover:after{
+
+.navigation-item:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
