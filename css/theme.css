@@ -7,7 +7,7 @@
     --text-color: #e7e7e7;
     --text-color-accent: #6edac8;
     --theme-url: url("../img/theme_dark.png");
-    --theme-url-hover: url("../img/theme_dark_hover.png");
+    /* --theme-url-hover: url("../img/theme_dark_hover.png"); */
 }
 
 :root.light {
@@ -16,7 +16,7 @@
     --text-color: #222222;
     --text-color-accent: #6edac8;
     --theme-url: url("../img/theme_light.png");
-    --theme-url-hover: url("../img/theme_light_hover.png");
+    /* --theme-url-hover: url("../img/theme_light_hover.png"); */
 }
 
 html {
