@@ -81,12 +81,11 @@ header {
     height: 4em;
     background-image: var(--theme-url);
     background-size: cover;
-    transition: filter .25s ease-in-out;
 }
 
 #theme-switcher:hover {
     /* background-image: var(--theme-url-hover); */
-    filter: sepia(1) brightness(60%) hue-rotate(180deg) saturate(10);
+    filter: sepia(1) brightness(60%) hue-rotate(120deg) saturate(10);
     cursor: pointer;
 }
 
