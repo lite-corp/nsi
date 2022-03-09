@@ -113,14 +113,14 @@ header {
 .button {
     text-transform: uppercase;
     text-align: center;
-    font-weight: bold;
-    font-size: 15px;
+    font-family: varela;
+    font-size: 20px;
     width: 15em;
     margin-left: auto;
     margin-right: auto;
     height: 1em;
     border-radius: 50px;
-    padding: 1.5em;
+    padding: 1.1em;
     line-height: 1em;
     background-color: var(--button);
     transition: all 0.5s

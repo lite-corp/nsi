@@ -14,3 +14,8 @@
     font-style: italic;
     src: url("../fonts/Raleway/Raleway-Italic.ttf");
 }
+
+@font-face {
+    font-family: varela;
+    src: url("../fonts/Varela/VarelaRound-Regular.otf");
+}
