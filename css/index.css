@@ -17,6 +17,7 @@
     --text-color: #222222;
     --text-color-accent: #40a8af;
     --button: #6cbeba;
+    --button-hover: #75ccc8;
     --theme-url: url("../img/theme_light.png");
     /* --theme-url-hover: url("../img/theme_light_hover.png"); */
 }
