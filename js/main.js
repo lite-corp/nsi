@@ -28,7 +28,7 @@ function init() {
     if (localStorage.theme) {
         toggleTheme(localStorage.theme);
     } else {
-        toggleTheme('dark');
+        toggleTheme('light');
     }
 }
 

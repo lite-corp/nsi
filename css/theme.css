@@ -1,7 +1,6 @@
 /* Colors and fonts for the document*/
 
-:root,
- :root.dark {
+:root.dark {
     --background-color: #3B3C3F;
     --background-color-secondary: #202223;
     --text-color: #e7e7e7;
