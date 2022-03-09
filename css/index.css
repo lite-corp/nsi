@@ -1,7 +1,31 @@
+/* Colors for the document*/
+
+:root.dark {
+    --background-color: #3B3C3F;
+    --background-color-secondary: #202223;
+    --text-color: #e7e7e7;
+    --text-color-accent: #43daee;
+    --theme-url: url("../img/theme_dark.png");
+    /* --theme-url-hover: url("../img/theme_dark_hover.png"); */
+}
+
+:root.light {
+    --background-color: #e7e7e7;
+    --background-color-secondary: #c4c4c4;
+    --text-color: #222222;
+    --text-color-accent: #40a8af;
+    --theme-url: url("../img/theme_light.png");
+    /* --theme-url-hover: url("../img/theme_light_hover.png"); */
+}
+
+
+
 html {
     padding: 0;
     margin: 0;
     background-color: var(--background-color);
+    font-family: monospace;
+    font-size: 130%;
 }
 
 body {
