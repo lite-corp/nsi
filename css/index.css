@@ -5,7 +5,7 @@
     --background-color-secondary: #202223;
     --text-color: #e7e7e7;
     --text-color-accent: #43daee;
-    --button: #eee
+    --button: #eeeeee;
     --theme-url: url("../img/theme_dark.png");
     /* --theme-url-hover: url("../img/theme_dark_hover.png"); */
 }
@@ -99,6 +99,9 @@ header {
     height: 4em;
 }
 
+
+/* Theme switcher */
+
 #theme-switcher {
     width: 4em;
     height: 4em;
@@ -106,8 +109,12 @@ header {
     background-size: cover;
 }
 
-#theme-switcher:hover {
-    /* background-image: var(--theme-url-hover); */
+:root.light #theme-switcher {
+    filter: invert(70%);
+}
+
+:root.light #theme-switcher:hover,
+:root.dark #theme-switcher:hover {
     filter: sepia(1) brightness(60%) hue-rotate(120deg) saturate(10);
     cursor: pointer;
 }
@@ -134,7 +141,7 @@ footer {
     bottom: 0;
 }
 
-footer>p {
+footer p {
     margin-left: auto;
     margin-right: auto;
     color: var(--text-color);
