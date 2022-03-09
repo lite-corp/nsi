@@ -110,6 +110,10 @@ header {
     height: 4em;
 }
 
+.light #site-icon {
+    filter: invert(1);
+}
+
 .button {
     text-transform: uppercase;
     text-align: center;
@@ -125,10 +129,12 @@ header {
     background-color: var(--button);
     transition: all 0.5s
 }
-.button:hover{
+
+.button:hover {
     box-shadow: inset 20em 0 0 0 var(--button-hover);
     cursor: pointer;
 }
+
 
 /* Theme switcher */
 
@@ -139,12 +145,12 @@ header {
     background-size: cover;
 }
 
-:root.light #theme-switcher {
+.light #theme-switcher {
     filter: invert(70%);
 }
 
-:root.light #theme-switcher:hover,
-:root.dark #theme-switcher:hover {
+.light #theme-switcher:hover,
+.dark #theme-switcher:hover {
     filter: sepia(1) brightness(60%) hue-rotate(120deg) saturate(10);
     cursor: pointer;
 }
