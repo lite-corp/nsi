@@ -5,6 +5,7 @@
     --background-color-secondary: #202223;
     --text-color: #e7e7e7;
     --text-color-accent: #43daee;
+    --button: #eee
     --theme-url: url("../img/theme_dark.png");
     /* --theme-url-hover: url("../img/theme_dark_hover.png"); */
 }
@@ -17,8 +18,6 @@
     --theme-url: url("../img/theme_light.png");
     /* --theme-url-hover: url("../img/theme_light_hover.png"); */
 }
-
-
 
 html {
     padding: 0;
