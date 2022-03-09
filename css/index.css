@@ -54,7 +54,7 @@ header {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: var(--text-color);
+    background-color: var(--text-color-accent);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
