@@ -38,6 +38,13 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: var(--text-color-accent);
+    text-underline-offset: 2px;
+}
+
 
 /* Header-related code */
 
