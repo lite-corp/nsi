@@ -9,7 +9,6 @@
     --button-hover: #58b6b1;
     --theme-url: url("../img/theme_dark.png");
     --red: #ce1c1c;
-    /* --theme-url-hover: url("../img/theme_dark_hover.png"); */
 }
 
 :root.light {
@@ -21,7 +20,6 @@
     --button-hover: #75ccc8;
     --theme-url: url("../img/theme_light.png");
     --red: #cf3838;
-    /* --theme-url-hover: url("../img/theme_light_hover.png"); */
 }
 
 html {
