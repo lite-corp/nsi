@@ -44,7 +44,8 @@ function init() {
     if (localStorage.theme) {
         toggleTheme(localStorage.theme);
     } else {
-        toggleTheme('light');
+        const defaultDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        toggleTheme(defaultDark ? "dark" : "light");
     }
 }
 
