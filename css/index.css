@@ -4,6 +4,7 @@
     --background-color: #3B3C3F;
     --background-color-secondary: #202223;
     --title-color: #e7e7e7;
+    --nav-color: #b7b7b7;
     --text-color: #e7e7e7;
     --text-color-accent: #43daee;
     --button: #4fa5a1;
@@ -16,6 +17,7 @@
     --background-color: #e7e7e7;
     --background-color-secondary: #c4c4c4;
     --title-color: #222222;
+    --nav-color: #303030;
     --text-color: #222222;
     --text-color-accent: #40a8af;
     --button: #6cbeba;
@@ -112,6 +114,10 @@ header {
     margin-left: 1em;
     margin-right: 1em;
     line-height: 1.5em;
+    color: var(--nav-color);
+}
+
+.navigation-item:hover, .navigation-item.selected {
     color: var(--title-color);
 }
 
