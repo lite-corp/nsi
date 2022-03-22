@@ -117,8 +117,12 @@ header {
     color: var(--nav-color);
 }
 
-.navigation-item:hover, .navigation-item.selected {
+.navigation-item.selected {
     color: var(--title-color);
+}
+.navigation-item:hover {
+    color: var(--title-color);
+    cursor: pointer;
 }
 
 .navigation-item:after {
