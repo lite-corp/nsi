@@ -1,12 +1,11 @@
 const page = document.getElementsByTagName('html')[0];
 const themeBtn = document.getElementById('theme-switcher');
 
-const colorTags = ["h2", "h3", "h4", "footer"]
+const colorTags = ["a", "h2", "h3", "h4", "footer"]
 var click_count = -1; // The theme is switched when the page is loaded
 
 function toggleTheme(theme = null) {
     if (click_count == 10) {
-        document.getElementById("navigation").classList.add("color");
         //document.getElementById("site-title").classList.add("color");
         for (let tags = 0; tags < colorTags.length; tags++) {
             items = document.getElementsByTagName(colorTags[tags])

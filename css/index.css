@@ -179,7 +179,16 @@ a {
     text-decoration: none;
 }
 
+p {
+    text-indent: 2em;
+}
+
+p a {
+    color: var(--text-color-accent);
+}
+
 h2 {
+    padding-left: 2em;
     font-weight: bold;
     color: var(--title-color);
     text-decoration: underline;
@@ -187,10 +196,14 @@ h2 {
     text-underline-offset: 2px;
 }
 
+h3 {
+    padding-left: 4em;
+}
+
 main p {
     text-align: justify;
     padding-left: 5em;
-    padding-right: 15em;
+    padding-right: 5em;
 }
 
 .button {
@@ -232,6 +245,7 @@ footer p {
     margin-left: auto;
     margin-right: auto;
     color: var(--title-color);
+    text-indent: 0;
 }
 
 #source-code {
