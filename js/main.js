@@ -46,6 +46,7 @@ function init() {
         const defaultDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
         toggleTheme(defaultDark ? "dark" : "light");
     }
+    console.log("Si vous voyez ce message, la NSI est faite pour vous !! N'hésitez plus !")
 }
 
 init();
