@@ -49,6 +49,7 @@ function init() {
 
     // Message for the geeks out there
     console.info("%cSi vous voyez ce message, il n'y a pas de doute : vous devez choisir la spécialité NSI !!!", "color: green; text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; font-size: 2em; font-weight: bold;");
+    console.log("Click on the heart to get a big gift 💖");
 }
 
 init();
