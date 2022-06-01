@@ -86,6 +86,8 @@ header {
     background-color: var(--background-color-secondary);
     color: var(--title-color);
     padding: .5em;
+    position: sticky;
+    top: 0;
 }
 
 #nav-placeholder {
@@ -146,11 +148,6 @@ header {
     height: 4em;
 }
 
-.light #site-icon {
-    filter: invert(1);
-}
-
-
 /* Theme switcher */
 
 #theme-switcher {
@@ -170,12 +167,20 @@ header {
     cursor: pointer;
 }
 
+#banner {
+    position: sticky;
+    top: 5em;
+    opacity: 0.7;
+    z-index: -1;
+}
+
 
 /* Page-related code */
 
 main {
     padding: 1em;
     color: var(--text-color);
+    background-color: var(--background-color);
     flex: 1;
 }
 
@@ -262,6 +267,10 @@ footer {
     background-color: var(--background-color-secondary);
     position: relative;
     bottom: 0;
+}
+
+.footer.color{
+    background-color: var(--background-color-secondary);
 }
 
 footer p {
