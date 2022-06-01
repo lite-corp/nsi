@@ -46,7 +46,9 @@ function init() {
         const defaultDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
         toggleTheme(defaultDark ? "dark" : "light");
     }
-    console.log("Si vous voyez ce message, la NSI est faite pour vous !! N'hésitez plus !")
+
+    // Message for the geeks out there
+    console.info("%cSi vous voyez ce message, il n'y a pas de doute : vous devez choisir la spécialité NSI !!!", "color: green; text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; font-size: 2em; font-weight: bold;");
 }
 
 init();
